@@ -1,0 +1,68 @@
+max_index = 9;
+class a{
+	attr_a;
+	new(_attr_a){
+		attr_a = _attr_a;
+	}
+	
+	aprint(){
+		print("aaaa");
+	}
+}
+
+class b extend a{
+	attr_b,attr_2;
+	new(_attr_b, _attr_2){
+		attr_b = _attr_b;
+	}
+	
+	bprint(){
+		print("bbbb");
+	}
+}
+
+class tEst_I{
+	de1f;
+	new(_de1f){
+		de1f = _de1f;
+	}
+}
+
+class TeSt_INde extend tEst_I{
+	attr_a,attr_2;
+	new(_attr_a, _attr_2){
+		attr_a = _attr_b;
+	}
+	a(){
+		print("aaaa");
+	}
+}
+
+print("hhh");
+intb = {0,1,2,3,4,5,6,7,8,9};
+try{
+	for( i = 0; i < intb[max_index]; i++){
+		if(i %2 == 0){
+			print(intb[i]);
+		}
+		else{
+			print("mod!=0");}
+	}
+}
+catch(INT_ERROR){
+	print("error");
+}
+finally{
+	print("end");
+}
+i = 0;
+
+while(i < intb[max_index]){
+	A = 1;
+	B = 2;
+	if(!A || B <= 2){	A += 1;}
+	elsif(A != 2){	A -= 1;}
+	elsif(B == 0){	B *= 3;}
+	elsif(B == 0){	B /= 3;}
+	elsif(B == 0 && A ==1){	B %= 10;}
+}

@@ -1,0 +1,11 @@
+class EM{
+ 	q=5;
+ 	create_point(x, y) {
+    
+   	 return this;
+	}
+	static test_static_method(){
+	}
+}
+
+print("hhh");

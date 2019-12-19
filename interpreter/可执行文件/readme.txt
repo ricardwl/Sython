@@ -1,0 +1,4 @@
+Sython为Ubuntu下可执行文件，可以实现功能范围内的代码的最终运行，运行方式为./Sython code.txt
+Sythonsyntax为Ubuntu下可执行文件，是语法分析器，可以对全部文法范围内的code进行语法检测，运行方式为./Sython code.txt
+SythonWin为Windows下可执行文件，可以实现功能范围内的代码的最终运行，运行方式为双击并按提示输入路径
+Sythonsyntax为Windows下可执行文件，是语法分析器，可以对全部文法范围内的code进行语法检测，运行方式为双击并按提示输入路径

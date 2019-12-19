@@ -1,0 +1,92 @@
+############################################################
+#test fuction defination
+import nunmpy;
+global a,b,c;
+function show(){
+    for(i=0;i<3;i=i+1){
+        print(i);
+    }
+}
+function show2(){
+    for(i=0;i<4;i=i+1){
+        print(i);
+    }
+}
+#test funtion call
+show();
+show2();
+import animal;
+#test class defination
+class Dog{
+	name,name2;
+	weight;
+	#static str="wolf";
+	#test method def
+	new(name1){
+		name=name1;	
+	}
+	call(){
+		print(str);	
+	}
+	eat(food){
+			
+	}
+
+
+}
+#test class method call
+dog1 = Dog.new("dog1");
+dog1.eat("meat");
+#test calculation
+a=(2+5)*2/2-1;
+a++;
+a--;
+b={1,2,3};
+c={a,b};
+p = create_point(10, 20);
+#test try catch
+try {
+    a=1/0;
+} catch (ex) {
+    desc_exception(ex);
+}
+
+if(a==6){
+	print("== successful");
+}else{
+	print("== error");
+}
+if(a<=6){
+	print("<= successful");
+}else{
+	print("<= error");
+}
+if(a>=6){
+	print(">= successful");
+}else{
+	print(">= error");
+}
+# test elsif
+if(a>=6){
+	print(">= successful");
+}elsif(a==4){
+	print("a == 4");
+}elsif(a==3){
+	print("a == 3");
+}
+else{
+	print(">= error");
+}
+#test for while loop
+for(i=0;i<10;i++){
+	while(i<5){
+		print(i);	
+	}
+	if(i == 1){
+		continue;
+	}
+	elsif(i == 9){
+		break;
+	}
+	
+}
